@@ -5,7 +5,7 @@ import org.scalatest.funspec.AnyFunSpec
 import org.scalatest.matchers.should.Matchers.convertToAnyShouldWrapper
 
 final class ApiakkahttpTest extends AnyFunSpec with GivenWhenThen {
-  describe("Apiakkahttp"){
+  describe("Apiakkahttp") {
     it("should greet") {
       Given("a Apiakkahttp")
 
@@ -14,7 +14,7 @@ final class ApiakkahttpTest extends AnyFunSpec with GivenWhenThen {
       When("we ask him to greet someone")
 
       val nameToGreet = "CodelyTV"
-      val greeting = apiakkahttp.greet(nameToGreet)
+      val greeting    = apiakkahttp.greet(nameToGreet)
 
       Then("it should say hello to someone")
 
